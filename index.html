@@ -44,10 +44,18 @@
     }
 
     /* タイ国旗カラーのトップライン */
-    .banner {
-      height: 8px;
+   .banner {
+      height: 18px;
       width: 100%;
-      background: linear-gradient(90deg, var(--accent) 0%, var(--accent) 33%, #ffffff 33%, #ffffff 66%, var(--primary) 66%, var(--primary) 100%);
+      background: linear-gradient(
+        180deg,
+        #ed1c24 0%, #ed1c24 16.6%,
+        #ffffff 16.6%, #ffffff 33.3%,
+        #241d4f 33.3%, #241d4f 66.6%,
+        #ffffff 66.6%, #ffffff 83.3%,
+        #ed1c24 83.3%, #ed1c24 100%
+      );
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }
 
     /* ヒーロービジュアルエリア（重なり防止済み） */
